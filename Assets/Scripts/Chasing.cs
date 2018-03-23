@@ -13,7 +13,7 @@ public class Chasing : MonoBehaviour
     public Player_Info pInfo;
     public float f_RotSpeed = 3.0f, f_MoveSpeed = 3.0f;
     // Use this for initialization
-    public float MAXTime = 100.0f; // MAX값/ 절대값
+    public float MAXTime = 1.0f; // MAX값/ 절대값
     public float timeCount; // 시간
     public float shakeTimer = 5.0f;// 흔들림 효과 시간
     public float shakeAmount = 0.01f;//흔들림 범위
